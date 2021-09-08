@@ -1,0 +1,39 @@
+.first-iamge-title,
+.third-iamge-title,
+.second-iamge-title {
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+.third-iamge-title {
+  margin-bottom: 10vh;
+}
+.third-iamge-title h1,
+.second-iamge-title h1,
+.first-iamge-title h1 {
+  color: #ffffff;
+  font-family: "Arial", Sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+}
+.first-iamge-title img,
+.second-iamge-title img {
+  border-radius: 10px;
+  margin-top: 5vh;
+  width: 100%;
+  max-width: 525px;
+}
+.third-iamge-title img {
+  max-width: 332px;
+  max-height: 332px;
+  margin-top: 5vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .third-iamge-title h1,
+  .second-iamge-title h1,
+  .first-iamge-title h1 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,22 @@
+.about {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  color: white;
+  max-width: 920px;
+  padding-top: 15vh;
+}
+.about h1 {
+  font-size: 60px;
+}
+.about p {
+  font-size: 14px;
+}
+.about div {
+  margin-top: 5vh;
+}
+@media screen and (max-width: 768px) {
+  .about h1 {
+    font-size: 34px;
+  }
+}

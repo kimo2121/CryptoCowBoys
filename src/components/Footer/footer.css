@@ -1,0 +1,31 @@
+.footer {
+  margin: 0 auto;
+  margin-top: 10vh;
+  border-top: 1px solid rgba(255, 255, 255, 0.507);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5vh 12vw;
+  width: 98%;
+  box-sizing: border-box;
+}
+.footer-external {
+  display: flex;
+}
+.footer-external a {
+  border: 1px solid rgba(255, 255, 255, 0.61);
+  border-radius: 7px;
+  margin: 0 0.5vw;
+  padding: 10px;
+  display: flex;
+}
+.footer-external a svg {
+  width: 25px;
+  height: 25px;
+  fill: white;
+}
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 1vw;
+}

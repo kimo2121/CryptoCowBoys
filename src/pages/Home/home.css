@@ -1,0 +1,33 @@
+.tesla-car {
+  max-width: 900px;
+  width: 80%;
+}
+.discord-url {
+  color: white;
+  width: 60%;
+  display: block;
+  margin: 10vh auto 0 auto;
+}
+.discord-url p {
+  letter-spacing: 4px;
+}
+.discord-url a {
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+  font-size: 22px;
+  max-width: 237px;
+  width: 40%;
+  display: block;
+  font-weight: 500;
+  background-color: #00bcbb;
+  padding: 15px 40px;
+}
+@media screen and (max-width: 768px) {
+  .discord-url p {
+    font-size: 10px;
+  }
+  .discord-url a {
+    font-size: 16px;
+  }
+}
